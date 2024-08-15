@@ -1,0 +1,66 @@
+body{
+    background: rgb(164, 137, 240);
+    color: white;
+    margin: 3px; 
+    font-family: "Nunito", sans-serif;  
+    margin-bottom: 50px;
+}
+
+header{
+    border-bottom: solid 1px rgb(146, 64, 153);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(90, 8, 116);
+}
+
+.section1{
+background-color: rgb(186, 167, 238);
+padding-bottom: 60px;
+padding-top: 60px;
+display: flex;
+justify-content: center;
+}
+
+.C1{
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+H1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.roleta{
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.section2{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.section2 h2{
+    color: rgb(90, 8, 116);
+    margin-bottom: 50px;
+}
+
+.roleta img{
+    opacity: 0.5;
+}
+
+.roleta img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
